@@ -1,5 +1,5 @@
 Named users
-========
+===========
 
 Get named users
 ---------------
