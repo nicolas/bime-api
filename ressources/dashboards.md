@@ -54,7 +54,7 @@ Get dashboard
       "name": "Oracle prod 1",
     }
   ],
-  "named_user_group": [
+  "named_user_groups": [
     {
       "id": "605",
       "name": "finance",
