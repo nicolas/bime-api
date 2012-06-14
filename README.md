@@ -81,7 +81,7 @@ API
 
 How to per usage
 ----------------
-* [Integration of Bime dashboard in third party solutions](https://github.com/nicolas/bime-api/bcx-api/blob/master/dashboard_integration.md) 
+* [Integration of Bime dashboard in third party solutions](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
 
 
 
