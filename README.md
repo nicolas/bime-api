@@ -79,9 +79,9 @@ API
 * [Named user groups](https://github.com/nicolas/bime-api/blob/master/ressources/named_user_groups.md) 
 
 
-How to per usage
+How to
 ----------------
-* [Integration of Bime dashboard in third party solutions](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
+* [integrate a Bime dashboard in a third party solution](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
 
 
 
