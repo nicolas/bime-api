@@ -72,11 +72,11 @@ You can perform up to 500 requests per 10 second period from the same IP address
 
 API
 -----------------
-* [Named users](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/named_users.md)
-* [Dashboards](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/dashboards.md)
-* [Models](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/dashboards.md)
-* [Data security rules](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/data_security_rules.md)
-* [Named user groups](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/named_user_groups.md) 
+* [Named users](https://github.com/nicolas/bime-api/blob/master/ressources/named_users.md)
+* [Dashboards](https://github.com/nicolas/bime-api/blob/master/ressources/dashboards.md)
+* [Models](https://github.com/nicolas/bime-api/blob/master/ressources/dashboards.md)
+* [Data security rules](https://github.com/nicolas/bime-api/blob/master/ressources/data_security_rules.md)
+* [Named user groups](https://github.com/nicolas/bime-api/blob/master/ressources/named_user_groups.md) 
 
 
 How to per usage
