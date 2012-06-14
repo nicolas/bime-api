@@ -74,7 +74,7 @@ API
 -----------------
 * [Named users](https://github.com/nicolas/bime-api/blob/master/ressources/named_users.md)
 * [Dashboards](https://github.com/nicolas/bime-api/blob/master/ressources/dashboards.md)
-* [Models](https://github.com/nicolas/bime-api/blob/master/ressources/dashboards.md)
+* [Connections](https://github.com/nicolas/bime-api/blob/master/ressources/connections.md)
 * [Data security rules](https://github.com/nicolas/bime-api/blob/master/ressources/data_security_rules.md)
 * [Named user groups](https://github.com/nicolas/bime-api/blob/master/ressources/named_user_groups.md) 
 
