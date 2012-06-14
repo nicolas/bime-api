@@ -28,7 +28,7 @@ Authentication
 
 You must use OAuth 2. This allows users to authorize your application to use Bime on their behalf.
 
-Read the [authentication guide](https://github.com/nicolas/bime-api/blob/master/sections/authentication.md) to get started.
+Read the [authentication guide](https://github.com/nicolas/bime-api/blob/master/authentication.md) to get started.
 
 
 Identify your app
@@ -72,16 +72,16 @@ You can perform up to 500 requests per 10 second period from the same IP address
 
 API
 -----------------
-* [Named users](https://github.com/nicolas/bime-api/bcx-api/blob/master/sections/named_users.md)
-* [Dashboards](https://github.com/nicolas/bime-api/bcx-api/blob/master/sections/dashboards.md)
-* [Models](https://github.com/nicolas/bime-api/bcx-api/blob/master/sections/dashboards.md)
-* [Data security rules](https://github.com/nicolas/bime-api/bcx-api/blob/master/sections/data_security_rules.md)
-* [Named user groups](https://github.com/nicolas/bime-api/bcx-api/blob/master/sections/named_user_groups.md) 
+* [Named users](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/named_users.md)
+* [Dashboards](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/dashboards.md)
+* [Models](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/dashboards.md)
+* [Data security rules](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/data_security_rules.md)
+* [Named user groups](https://github.com/nicolas/bime-api/bcx-api/blob/master/ressources/named_user_groups.md) 
 
 
 How to per usage
 ----------------
-* [Integration of Bime dashboard in third party solutions](https://github.com/nicolas/bime-api/bcx-api/blob/master/sections/dashboard_integration.md) 
+* [Integration of Bime dashboard in third party solutions](https://github.com/nicolas/bime-api/bcx-api/blob/master/dashboard_integration.md) 
 
 
 
