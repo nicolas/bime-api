@@ -1,12 +1,12 @@
 Making a request
 ----------------
 
-All URLs start with `https://bimeapp.com/api/v1/999999`. **SSL only**. The path is suffixed with the account id and the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
+All URLs start with `https://api.bimeapp.com/v1`. **SSL only**. The path is suffixed with the account id and the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
-To make a request for all the users on your account, you'd append the users index path to the base url to form something like https://bimeapp.com/api/v1/999999/api/v1/users.json. In curl, that looks like:
+To make a request for all the users on your account, you'd append the users index path to the base url to form something like https://api.bimeapp.com/v1/users.json. In curl, that looks like:
 
 ```shell
-curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://bimeapp.com/api/v1/999999/users.json
+curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://api.bimeapp.com/v1/users.json
 ```
 
 To create something, it's the same deal except you also have to include the `Content-Type` header and the JSON data:

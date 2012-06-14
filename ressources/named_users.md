@@ -1,7 +1,7 @@
 Named users
 ========
 
-Get Named users
+Get named users
 ---------------
 
 * `GET /named_users.json` will return all named users.
@@ -23,8 +23,8 @@ Get Named users
    "external_id": "60581D",
    "updated_at": "2012-03-23T13:55:43-05:00",
    "created_at": "2012-03-23T13:55:43-05:00",
-   "access_token": "AZALPODP12332MLSDSDSLM",
-   "named_user_group_id":5
+   "access_token": "AZAL2P1DP12332MLSDSDSLM",
+   "named_user_group_id":4
   }
 ]
 ```
@@ -41,8 +41,8 @@ Get named user
    "full_name": "Yannick Chaze",
    "external_id": "60581D",
    "updated_at": "2012-03-23T13:55:43-05:00",
-   "created_at": "2012-03-23T13:55:43-05:00"
-   "access_token": "AZALPODP12332MLSDSDSLM",
+   "created_at": "2012-03-23T13:55:43-05:00",
+   "access_token": "AZALPODP112332MLSDSDSLM",
    "named_user_group_id":5
 }
 ```
