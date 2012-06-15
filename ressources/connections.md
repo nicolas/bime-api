@@ -41,7 +41,7 @@ Get connection
    "name": "Oracle prod 2",
    "updated_at": "2012-03-23T13:55:43-05:00",
    "created_at": "2012-03-23T13:55:43-05:00",
-   "creator_full_name":"nicolas raspal",`
+   "creator_full_name":"nicolas raspal",
    "technical_type":"RDBMS",
    "schema":[
     {"datafield":"product_name", "display_name":"product name","is_measure":false},
