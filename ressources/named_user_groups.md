@@ -10,21 +10,15 @@ Get named user groups
 [
   {
     "id": 605816632,
-    "full_name": "Nicolas Raspal",
-    "external_id": "60581D",
+    "name": "HR",
     "updated_at": "2012-03-23T13:55:43-05:00",
-    "created_at": "2012-03-23T13:55:43-05:00",
-    "access_token": "AZALPODP12332MLSDSDSLM",
-    "named_user_group_group_id":5
+    "created_at": "2012-03-23T13:55:43-05:00"
   },
   {
-    "id": 605816634,
-    "full_name": "Yannick Chaze",
-    "external_id": "60581D",
+    "id": 605816630,
+    "name": "finance south",
     "updated_at": "2012-03-23T13:55:43-05:00",
-    "created_at": "2012-03-23T13:55:43-05:00",
-    "access_token": "AZAL2P1DP12332MLSDSDSLM",
-    "named_user_group_group_id":4
+    "created_at": "2012-03-23T13:55:43-05:00"
   }
 ]
 ```
@@ -37,16 +31,23 @@ Get named user group
 
 ```json
 {
-   "id": 605816634,
-   "full_name": "Yannick Chaze",
-   "external_id": "60581D",
-   "updated_at": "2012-03-23T13:55:43-05:00",
-   "created_at": "2012-03-23T13:55:43-05:00",
-   "access_token": "AZALPODP112332MLSDSDSLM",
-   "named_user_group_group_id":5
+    "id": 605816630,
+    "name": "finance south",
+    "updated_at": "2012-03-23T13:55:43-05:00",
+    "created_at": "2012-03-23T13:55:43-05:00",
+    "data_security_rules": [
+      {id:"124",name:"finance south"},
+      {id:"123",name:"finance east"}
+    ],
+    "dashboards":[
+     {id:"124",name:"Profits"},
+     {id:"122",name:"Activity"}
+    ]
 }
 ```
 
+data_security_rules attribute is the data security rules that are linked to this named user group
+dashboards are the dashboard the group can access
 
 Create named user group
 -----------------------
