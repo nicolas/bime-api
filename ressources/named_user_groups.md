@@ -40,8 +40,8 @@ Get named user group
       {id:"123","name":"finance east"}
     ],
     "dashboards":[
-     {id:"124","name":"Profits"},
-     {id:"122","name":"Activity"}
+     {"id":"124","name":"Profits"},
+     {"id":"122","name":"Activity"}
     ]
 }
 ```
