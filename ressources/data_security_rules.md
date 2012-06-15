@@ -42,8 +42,8 @@ Get data security rule
     "created_at": "2012-03-23T13:55:43-05:00",
     "model":{"id": "123334","name":"Oracle prod 1"},
     "name_user_groups": [
-    	{"id":112,name:"South"},
-    	{"id":111,name:"HR South"}
+    	{"id":112,"name":"South"},
+    	{"id":111,"name":"HR South"}
     ]
 }
 ```
