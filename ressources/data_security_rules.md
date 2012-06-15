@@ -1,86 +1,87 @@
-Named users
-===========
+Data security rule
+==================
 
-Get data security rule
-----------------------
+Get data security rules
+-----------------------
 
-* `GET /named_users.json` will return all named users.
+* `GET /data_security_rules.json` will return all data security rules.
 
 ```json
 [
   {
-    "id": 60816632,
-    "full_name": "Nicolas Raspal",
-    "external_id": "60581D",
+    "id":434343,
+    "datafield":"product_name",
+    "autorized_values":"'atari','xbox','ps3'"
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
-    "access_token": "AZALPODP12332MLSDSDSLM",
-	"named_user_group_id":5
+    "model_id": "123334"
   },
   {
-   "id": 605816634,
-   "full_name": "Yannick Chaze",
-   "external_id": "60581D",
-   "updated_at": "2012-03-23T13:55:43-05:00",
-   "created_at": "2012-03-23T13:55:43-05:00",
-   "access_token": "AZAL2P1DP12332MLSDSDSLM",
-   "named_user_group_id":4
+    "id":434343,
+    "datafield":"product_name",
+    "autorized_values":"'atari','xbox','ps3'"
+    "updated_at": "2012-03-23T13:55:43-05:00",
+    "created_at": "2012-03-23T13:55:43-05:00",
+    "model_id": "123334"
   }
 ]
 ```
 
 
-Get named user
---------------
+Get data security rule
+----------------------
 
-* `GET /named_users/1.json` will return the specified named user.
-
-```json
-{
-   "id": 605816634,
-   "full_name": "Yannick Chaze",
-   "external_id": "60581D",
-   "updated_at": "2012-03-23T13:55:43-05:00",
-   "created_at": "2012-03-23T13:55:43-05:00",
-   "access_token": "AZALPODP112332MLSDSDSLM",
-   "named_user_group_id":5
-}
-```
-access_token is sent to dashboards to identify the users and eventually apply data security.
-
-Create named user
------------------
-
-* `POST /named_user.json` will create a new named user from the parameters passed.
+* `GET /data_security_rule/1.json` will return the specified data security rule.
 
 ```json
 {
-  "full_name": "Mathias Paulin",
-  "external_id": "007"
+    "id":434343,
+    "datafield":"product_name",
+    "autorized_values":"'atari','xbox','ps3'"
+    "updated_at": "2012-03-23T13:55:43-05:00",
+    "created_at": "2012-03-23T13:55:43-05:00",
+    "model":{"id": "123334","name":"Oracle prod 1"},
+    "name_user_groups": [
+    	{"id":112,name:"South"},
+    	{"id":111,name:"HR South"}
+    ]
 }
 ```
 
-This will return `201 Created`, with the current JSON representation of the project if the creation was a success. See the **Get named user** endpoint for more info. 
+Create data security rule
+-------------------------
 
-
-Update named user
------------------
-
-* `PUT /named_user/1.json` will update the project from the parameters passed.
+* `POST /data_security_rule.json` will create a new data security rule from the parameters passed.
 
 ```json
 {
-  "full_name": "Dr Mathias Paulin",
-  "external_id": "007",
-  "renew_access_token":true
+  "model_id":123334,
+  "datafield": "product_name",
+  "autorized_values": "'atari','xbox','ps3'"
 }
 ```
-The renew_access_token parameter when set at **true** will expire the current one and create a new one.
 
-This will return `200 OK` if the update was a success along with the current JSON representation of the named user. See the **Get named user** endpoint for more info.
+This will return `201 Created`, with the current JSON representation of the data security rule if the creation was a success. See the **Get data security rule** endpoint for more info. 
 
 
-Delete named user
------------------
+Update data security rule
+-------------------------
 
-* `DELETE /named_user/1.json` will delete the named user specified and return `204 No Content` if that was successful.
+* `PUT /data_security_rule/1.json` will update the data security rule from the parameters passed.
+
+```json
+{
+  "id":123
+  "model_id":123334,
+  "datafield": "product_name",
+  "autorized_values": "'atari','xbox','ps3'"
+}
+```
+
+This will return `200 OK` if the update was a success along with the current JSON representation of the data security rule. See the **Get data security rule** endpoint for more info.
+
+
+Delete data security rule
+-------------------------
+
+* `DELETE /data_security_rule/1.json` will delete the data security rule specified and return `204 No Content` if that was successful.
