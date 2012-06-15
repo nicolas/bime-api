@@ -46,18 +46,16 @@ Get connection
     {datafield:"customer_state", display_name:"customer state",is_measure:false},
     {datafield:"trn_over", display_name:"turn over",is_measure:true}
   ],
-  "data_security_groups":[
-    {id:434343,datafield:"product_name",autorized_values: }
-  ]
+  "data_security_rule":[
+    {id:434343,datafield:"product_name",autorized_values:"'atari','xbox','ps3'" },
+    {id:434342,datafield:"product_name",autorized_values:"'atari'" },
+    {id:434341,datafield:"product_name",autorized_values:"'atari','ps3'" },
+    {id:434340,datafield:"customer_state",autorized_values:"'herault'" }
+  ],
   "named_user_groups": [
-    {
-      "id": "605",
-      "name": "finance",
-    },
-    {
-      "id": "602",
-      "name": "HR",
-    }
+    {"id": "605","name": "finance",data_security_rule_ids:[434340,434341]},
+    {"id": "603","name": "finance",data_security_rule_ids:[434343]},
+    {"id": "601","name": "finance",data_security_rule_ids:[434340]},
   ]
 }
 ```
