@@ -71,7 +71,7 @@ Update data security rule
 
 ```json
 {
-  "id":123
+  "id":123,
   "model_id":123334,
   "datafield": "product_name",
   "autorized_values": "'atari','xbox','ps3'"
