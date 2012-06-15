@@ -46,7 +46,7 @@ Get named user
    "named_user_group_id":5
 }
 ```
-
+access_token is sent to dashboards to identify the users and eventually apply data security.
 
 Create named user
 -----------------
@@ -60,20 +60,22 @@ Create named user
 }
 ```
 
-This will return `201 Created`, with the current JSON representation of the project if the creation was a success. See the **Get named user** endpoint for more info. 
+This will return `201 Created`, with the current JSON representation of the named user if the creation was a success. See the **Get named user** endpoint for more info. 
 
 
 Update named user
 -----------------
 
-* `PUT /named_user/1.json` will update the project from the parameters passed.
+* `PUT /named_user/1.json` will update the named user from the parameters passed.
 
 ```json
 {
   "full_name": "Dr Mathias Paulin",
-  "external_id": "007"
+  "external_id": "007",
+  "renew_access_token":true
 }
 ```
+The renew_access_token parameter when set at **true** will expire the current one and create a new one.
 
 This will return `200 OK` if the update was a success along with the current JSON representation of the named user. See the **Get named user** endpoint for more info.
 

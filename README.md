@@ -36,7 +36,7 @@ Identify your app
 
 You must include a `User-Agent` header with the name of your application and a link to it or your email address so we can get in touch in case you're doing something wrong (so we may warn you before you're blacklisted) or something awesome (so we may congratulate you). Here's an example:
 
-    User-Agent: Freshbooks (http://freshbooks.com)
+    User-Agent: mysaaserp (http://mysaaserp.com)
 
 If you don't supply this header, you will get a `400 Bad Request`.
 
@@ -74,14 +74,14 @@ API
 -----------------
 * [Named users](https://github.com/nicolas/bime-api/blob/master/ressources/named_users.md)
 * [Dashboards](https://github.com/nicolas/bime-api/blob/master/ressources/dashboards.md)
-* [Models](https://github.com/nicolas/bime-api/blob/master/ressources/dashboards.md)
+* [Connections](https://github.com/nicolas/bime-api/blob/master/ressources/connections.md)
 * [Data security rules](https://github.com/nicolas/bime-api/blob/master/ressources/data_security_rules.md)
 * [Named user groups](https://github.com/nicolas/bime-api/blob/master/ressources/named_user_groups.md) 
 
 
-How to per usage
+How to
 ----------------
-* [Integration of Bime dashboard in third party solutions](https://github.com/nicolas/bime-api/bcx-api/blob/master/dashboard_integration.md) 
+* [integrate a Bime dashboard in a third party solution](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
 
 
 
