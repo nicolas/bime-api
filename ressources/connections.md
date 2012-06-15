@@ -1,7 +1,7 @@
 Connections
 ===========
 
-A connection hold informations on the datasource used, the name and type of columns along what are the user group and security rule that has to be applied.
+A connection hold informations on the datasource used, the name and type of columns along what are the user groups and security rules that has to be applied.
 
 Get connections
 ---------------
