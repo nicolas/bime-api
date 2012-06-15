@@ -46,7 +46,7 @@ Get named user
    "named_user_group_id":5
 }
 ```
-
+access_token is sent to dashboards to identify the users and eventually apply data security.
 
 Create named user
 -----------------
@@ -71,9 +71,11 @@ Update named user
 ```json
 {
   "full_name": "Dr Mathias Paulin",
-  "external_id": "007"
+  "external_id": "007",
+  "renew_access_token":true
 }
 ```
+The renew_access_token parameter when set at 'true' will expire the current one and create a new one.
 
 This will return `200 OK` if the update was a success along with the current JSON representation of the named user. See the **Get named user** endpoint for more info.
 
