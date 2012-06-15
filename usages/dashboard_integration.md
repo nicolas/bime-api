@@ -1,4 +1,4 @@
-bime dashboard integration
+Bime dashboard integration
 --------------------------
 
 Third party solution providers can seamlessly embed bime dashboards as part of their applications.
