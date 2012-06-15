@@ -60,13 +60,13 @@ Create named user
 }
 ```
 
-This will return `201 Created`, with the current JSON representation of the project if the creation was a success. See the **Get named user** endpoint for more info. 
+This will return `201 Created`, with the current JSON representation of the named user if the creation was a success. See the **Get named user** endpoint for more info. 
 
 
 Update named user
 -----------------
 
-* `PUT /named_user/1.json` will update the project from the parameters passed.
+* `PUT /named_user/1.json` will update the named user from the parameters passed.
 
 ```json
 {
