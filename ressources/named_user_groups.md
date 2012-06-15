@@ -56,8 +56,7 @@ Create named user group
 
 ```json
 {
-  "full_name": "Mathias Paulin",
-  "external_id": "007"
+  "name": "finance south"
 }
 ```
 
@@ -71,9 +70,8 @@ Update named user group
 
 ```json
 {
-  "full_name": "Dr Mathias Paulin",
-  "external_id": "007",
-  "renew_access_token":true
+  "id": 123,
+  "name": finance south
 }
 ```
 The renew_access_token parameter when set at **true** will expire the current one and create a new one.
