@@ -36,7 +36,7 @@ Identify your app
 
 You must include a `User-Agent` header with the name of your application and a link to it or your email address so we can get in touch in case you're doing something wrong (so we may warn you before you're blacklisted) or something awesome (so we may congratulate you). Here's an example:
 
-    User-Agent: Google (http://google.com)
+    User-Agent: mysaaserp (http://mysaaserp.com)
 
 If you don't supply this header, you will get a `400 Bad Request`.
 
