@@ -75,7 +75,7 @@ Update named user
   "renew_access_token":true
 }
 ```
-The renew_access_token parameter when set at 'true' will expire the current one and create a new one.
+The renew_access_token parameter when set at **true** will expire the current one and create a new one.
 
 This will return `200 OK` if the update was a success along with the current JSON representation of the named user. See the **Get named user** endpoint for more info.
 
