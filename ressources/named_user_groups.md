@@ -13,18 +13,18 @@ Get named user groups
     "full_name": "Nicolas Raspal",
     "external_id": "60581D",
     "updated_at": "2012-03-23T13:55:43-05:00",
-  "created_at": "2012-03-23T13:55:43-05:00",
+    "created_at": "2012-03-23T13:55:43-05:00",
     "access_token": "AZALPODP12332MLSDSDSLM",
-  "named_user_group_group_id":5
+    "named_user_group_group_id":5
   },
   {
-   "id": 605816634,
-   "full_name": "Yannick Chaze",
-   "external_id": "60581D",
-   "updated_at": "2012-03-23T13:55:43-05:00",
-   "created_at": "2012-03-23T13:55:43-05:00",
-   "access_token": "AZAL2P1DP12332MLSDSDSLM",
-   "named_user_group_group_id":4
+    "id": 605816634,
+    "full_name": "Yannick Chaze",
+    "external_id": "60581D",
+    "updated_at": "2012-03-23T13:55:43-05:00",
+    "created_at": "2012-03-23T13:55:43-05:00",
+    "access_token": "AZAL2P1DP12332MLSDSDSLM",
+    "named_user_group_group_id":4
   }
 ]
 ```
