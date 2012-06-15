@@ -46,7 +46,7 @@ Get connection
     {datafield:"customer_state", display_name:"customer state",is_measure:false},
     {datafield:"trn_over", display_name:"turn over",is_measure:true}
   ],
-  "data_security_rule":[
+  "data_security_rules":[
     {id:434343,datafield:"product_name",autorized_values:"'atari','xbox','ps3'" },
     {id:434342,datafield:"product_name",autorized_values:"'atari'" },
     {id:434341,datafield:"product_name",autorized_values:"'atari','ps3'" },
