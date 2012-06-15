@@ -36,8 +36,8 @@ Get named user group
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
     "data_security_rules": [
-      {"id":"124","name":"finance south"},
-      {"id":"123","name":"finance east"}
+      {"id":"124"},
+      {"id":"123"}
     ],
     "dashboards":[
      {"id":"124","name":"Profits"},
