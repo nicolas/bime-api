@@ -53,7 +53,7 @@ Get connection
     {"id":434340,"datafield":"customer_state","autorized_values":"'herault'" }
   ],
   "named_user_groups": [
-    {"id": "605","name": "finance south","data_security_rules":[{"id:434340},{"id":434341}],
+    {"id": "605","name": "finance south","data_security_rules":[{"id":434340},{"id":434341}],
     {"id": "603","name": "hr","data_security_rules":[{"id:434340},{"id":434341}],
     {"id": "601","name": "south","data_security_rules":[{"id:434340},{"id":434341}]
   ]
