@@ -14,7 +14,7 @@ Get dashboards
     "publication_guid": "02B41A2B6A3E47AEAA6242DDC55C1D23",
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
-    is_published:true
+    "is_published":true
     
   },
   {
@@ -23,7 +23,7 @@ Get dashboards
    "publication_guid": "02B41A2B6A3E47AEAA6242DDC55C1D23",
    "updated_at": "2012-03-23T13:55:43-05:00",
    "created_at": "2012-03-23T13:55:43-05:00",
-   is_published:false
+   "is_published":false
   }
 ]
 ```
