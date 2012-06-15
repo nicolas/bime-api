@@ -71,7 +71,7 @@ Update named user group
 ```json
 {
   "id": 123,
-  "name": finance south
+  "name": "finance south"
 }
 ```
 The renew_access_token parameter when set at **true** will expire the current one and create a new one.
