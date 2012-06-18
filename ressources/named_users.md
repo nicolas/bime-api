@@ -33,7 +33,7 @@ Get named users
 Get named user
 --------------
 
-* `GET /named_users/1.json` will return the specified named user.
+* `GET /named_user/1.json` will return the specified named user.
 
 ```json
 {

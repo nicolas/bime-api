@@ -46,21 +46,21 @@ Get dashboard
    "group_security":true,
    "conections": [
     {
-      "id": "605816632",
+      "id": 605816632,
       "name": "Oracle prod 2",
     },
     {
-      "id": "605816632",
+      "id": 605816632,
       "name": "Oracle prod 1",
     }
   ],
   "named_user_groups": [
     {
-      "id": "605",
+      "id": 605,
       "name": "finance",
     },
     {
-      "id": "602",
+      "id": 602,
       "name": "HR",
     }
   ]

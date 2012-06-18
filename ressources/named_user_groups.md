@@ -27,7 +27,7 @@ Get named user groups
 Get named user group
 --------------------
 
-* `GET /named_user_groups/1.json` will return the specified named user group.
+* `GET /named_user_group/1.json` will return the specified named user group.
 
 ```json
 {
@@ -36,12 +36,12 @@ Get named user group
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
     "data_security_rules": [
-      {"id":"124"},
-      {"id":"123"}
+      {"id":124},
+      {"id":123}
     ],
     "dashboards":[
-     {"id":"124","name":"Profits"},
-     {"id":"122","name":"Activity"}
+     {"id":124,"name":"Profits"},
+     {"id":122,"name":"Activity"}
     ]
 }
 ```
@@ -70,7 +70,6 @@ Update named user group
 
 ```json
 {
-  "id": 123,
   "name": "finance south"
 }
 ```
