@@ -44,7 +44,7 @@ Get dashboard
    "is_published":true,
    "password_protected":false,
    "group_security":true,
-   "conections": [
+   "connections": [
     {
       "id": 605816632,
       "name": "Oracle prod 2",
