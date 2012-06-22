@@ -1,5 +1,7 @@
 Data security rule
 ==================
+A data security rule express a data restriction on a column for a named user group. In short, it allows to define that a named user group called "Region East" can only access the data where the column "regions" containes the "NORTH-EAST" and "SOUTH-EAST" values.
+This rule would translate in SQL by appending automatically to all the queries "WHERE regions in ('NORTH-EAST','SOUTH-EAST')".
 
 Get data security rules
 -----------------------
