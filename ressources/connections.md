@@ -50,10 +50,10 @@ Get connection
     {"datafield":"trn_over", "display_name":"turn over","is_measure":true}
    ],
    "data_security_rules":[
-    {"id":434343,"datafield":"product_name","autorized_values":"'atari','xbox','ps3'" },
-    {"id":434342,"datafield":"product_name","autorized_values":"'atari'" },
-    {"id":434341,"datafield":"product_name","autorized_values":"'atari','ps3'" },
-    {"id":434340,"datafield":"customer_state","autorized_values":"'herault'" }
+    {"id":434343,"datafield":"product_name","authorized_values":"'atari','xbox','ps3'" },
+    {"id":434342,"datafield":"product_name","authorized_values":"'atari'" },
+    {"id":434341,"datafield":"product_name","authorized_values":"'atari','ps3'" },
+    {"id":434340,"datafield":"customer_state","authorized_values":"'herault'" }
    ],
    "named_user_groups": [
     {"id": 605,"name": "finance south","data_security_rules":[{"id":434340},{"id":434341}]},
