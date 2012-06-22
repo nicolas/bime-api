@@ -78,7 +78,7 @@ API
 * [Data security rules](https://github.com/nicolas/bime-api/blob/master/ressources/data_security_rules.md)
 * [Named user groups](https://github.com/nicolas/bime-api/blob/master/ressources/named_user_groups.md) 
 * [Name user group securities] (https://github.com/nicolas/bime-api/blob/master/ressources/named_user_group_securities.md)
-* [Dashboard subscription] (https://github.com/nicolas/bime-api/blob/master/ressources/dashboard_subscriptions.md)
+* [Dashboard subscriptions] (https://github.com/nicolas/bime-api/blob/master/ressources/dashboard_subscriptions.md)
 
 
 How to
