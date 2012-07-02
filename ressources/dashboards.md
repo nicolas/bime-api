@@ -4,7 +4,7 @@ Dashboards
 Get dashboards
 --------------
 
-* `GET /named_users.json` will return all named users.
+* `GET /dashboards.json` will return all named users.
 
 ```json
 [
