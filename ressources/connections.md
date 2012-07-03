@@ -7,7 +7,7 @@ A connection hold informations on the datasource used, the name and type of colu
 Get connections
 ---------------
 
-* `GET /connections.json` will return all connections.
+* `GET /connections` will return all connections.
 
 ```json
 [
@@ -34,7 +34,7 @@ Get connections
 Get connection
 --------------
 
-* `GET /connection/1.json` will return the specified connection.
+* `GET /connections/1` will return the specified connection.
 
 ```json
 {
@@ -54,11 +54,6 @@ Get connection
     {"id":434342,"datafield":"product_name","authorized_values":"'atari'" },
     {"id":434341,"datafield":"product_name","authorized_values":"'atari','ps3'" },
     {"id":434340,"datafield":"customer_state","authorized_values":"'herault'" }
-   ],
-   "named_user_groups": [
-    {"id": 605,"name": "finance south","data_security_rules":[{"id":434340},{"id":434341}]},
-    {"id": 603,"name": "hr","data_security_rules":[{"id":434340},{"id":434341}]},
-    {"id": 601,"name": "south","data_security_rules":[{"id":434340},{"id":434341}]}
    ]
 }
 ```
