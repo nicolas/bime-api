@@ -4,7 +4,7 @@ Named users
 Get named users
 ---------------
 
-* `GET /named_users.json` will return all named users.
+* `GET /named_users` will return all named users.
 
 ```json
 [
@@ -33,7 +33,7 @@ Get named users
 Get named user
 --------------
 
-* `GET /named_user/1.json` will return the specified named user.
+* `GET /named_users/1` will return the specified named user.
 
 ```json
 {
@@ -51,7 +51,7 @@ access_token is sent to dashboards to identify the users and eventually apply da
 Create named user
 -----------------
 
-* `POST /named_user.json` will create a new named user from the parameters passed.
+* `POST /named_users` will create a new named user from the parameters passed.
 
 ```json
 {
@@ -66,7 +66,7 @@ This will return `201 Created`, with the current JSON representation of the name
 Update named user
 -----------------
 
-* `PUT /named_user/1.json` will update the named user from the parameters passed.
+* `PUT /named_users/1` will update the named user from the parameters passed.
 
 ```json
 {
@@ -83,4 +83,4 @@ This will return `200 OK` if the update was a success along with the current JSO
 Delete named user
 -----------------
 
-* `DELETE /named_user/1.json` will delete the named user specified and return `204 No Content` if that was successful.
+* `DELETE /named_users/1` will delete the named user specified and return `204 No Content` if that was successful.
