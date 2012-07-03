@@ -44,7 +44,7 @@ If you don't supply this header, you will get a `400 Bad Request`.
 Output format
 -------------
 
-We support JSON for serialization of data. Our format is to have no root element and we use snake\_case to describe attribute keys. This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data into Bime. **All API URLs end in .json to indicate that they accept and return JSON.**
+We support JSON for serialization of data. Our format is to have no root element and we use snake\_case to describe attribute keys. This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data into Bime.
 
 You'll receive a `415 Unsupported Media Type` response code if you attempt to use a different URL suffix or leave out the `Content-Type` header.
 
