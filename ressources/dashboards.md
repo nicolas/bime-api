@@ -4,7 +4,7 @@ Dashboards
 Get dashboards
 --------------
 
-* `GET /dashboards.json` will return all named users.
+* `GET /dashboards.json` will return all dashboards.
 
 ```json
 [
@@ -32,7 +32,7 @@ Get dashboards
 Get dashboard
 -------------
 
-* `GET /dashboard/1.json` will return the specified dashboard.
+* `GET /dashboards/1.json` will return the specified dashboard.
 
 ```json
 {
