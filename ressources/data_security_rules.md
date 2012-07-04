@@ -6,7 +6,7 @@ This rule would translate in SQL by appending automatically to all the queries "
 Get data security rules
 -----------------------
 
-* `GET /data_security_rules.json` will return all data security rules.
+* `GET /data_security_rules` will return all data security rules.
 
 ```json
 [
@@ -16,7 +16,7 @@ Get data security rules
     "autorized_values":"'atari','xbox','ps3'",
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
-    "model_id": "123334"
+    "connection_id": "123334"
   },
   {
     "id":434343,
@@ -24,7 +24,7 @@ Get data security rules
     "autorized_values":"'atari','xbox','ps3'",
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
-    "model_id": "123334"
+    "connection_id": "123334"
   }
 ]
 ```
@@ -33,7 +33,7 @@ Get data security rules
 Get data security rule
 ----------------------
 
-* `GET /data_security_rule/1.json` will return the specified data security rule.
+* `GET /data_security_rules/1` will return the specified data security rule.
 
 ```json
 {
@@ -42,7 +42,7 @@ Get data security rule
     "autorized_values":"'atari','xbox','ps3'",
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
-    "model":{"id": "123334","name":"Oracle prod 1"},
+    "connection":{"id": "123334","name":"Oracle prod 1"},
     "name_user_groups": [
     	{"id":112,"name":"South"},
     	{"id":111,"name":"HR South"}
@@ -53,11 +53,11 @@ Get data security rule
 Create data security rule
 -------------------------
 
-* `POST /data_security_rule.json` will create a new data security rule from the parameters passed.
+* `POST /data_security_rules` will create a new data security rule from the parameters passed.
 
 ```json
 {
-  "model_id":123334,
+  "connection_id":123334,
   "datafield": "product_name",
   "autorized_values": "'atari','xbox','ps3'"
 }
@@ -69,11 +69,11 @@ This will return `201 Created`, with the current JSON representation of the data
 Update data security rule
 -------------------------
 
-* `PUT /data_security_rule/1.json` will update the data security rule from the parameters passed.
+* `PUT /data_security_rules/1` will update the data security rule from the parameters passed.
 
 ```json
 {
-  "model_id":123334,
+  "connection_id":123334,
   "datafield": "product_name",
   "autorized_values": "'atari','xbox','ps3'"
 }
