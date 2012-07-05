@@ -1,11 +1,11 @@
 dashboard subscriptions
 ========================
-This is where you can give access a name user group to a particular dashboard.
+This is where you can give access a named user group to a particular dashboard.
 
 Get dashboard subscriptions
 ---------------------------
 
-* `GET /dashboard_subscriptions.json` will return all dashboard subscriptions.
+* `GET /dashboard_subscriptions` will return all dashboard subscriptions.
 
 ```json
 [
@@ -30,7 +30,7 @@ Get dashboard subscriptions
 Get dashboard subscription
 ---------------------------
 
-* `GET /dashboard_subscription/1.json` will return the specified dashboard subscription.
+* `GET /dashboard_subscriptions/1` will return the specified dashboard subscription.
 
 ```json
 {
@@ -45,7 +45,7 @@ Get dashboard subscription
 Create dashboard subscription
 -----------------------------
 
-* `POST /dashboard_subscription.json` will create a new dashboard subscription from the parameters passed.
+* `POST /dashboard_subscriptions` will create a new dashboard subscription from the parameters passed.
 
 ```json
 {
@@ -60,7 +60,7 @@ This will return `201 Created`, with the current JSON representation of the dash
 Update dashboard subscription
 -----------------------------
 
-* `PUT /dashboard_subscription/1.json` will update the dashboard subscription from the parameters passed.
+* `PUT /dashboard_subscriptions/1` will update the dashboard subscription from the parameters passed.
 
 ```json
 {
@@ -73,4 +73,4 @@ Update dashboard subscription
 Delete dashboard subscription
 -----------------------------
 
-* `DELETE /dashboard_subscription/1.json` will delete the dashboard subscription specified and return `204 No Content` if that was successful.
+* `DELETE /dashboard_subscriptions` will delete the dashboard subscription specified and return `204 No Content` if that was successful.
