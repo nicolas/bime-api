@@ -4,7 +4,7 @@ Dashboards
 Get dashboards
 --------------
 
-* `GET /dashboards.json` will return all dashboards.
+* `GET /dashboards` will return all dashboards.
 
 ```json
 [
@@ -32,7 +32,7 @@ Get dashboards
 Get dashboard
 -------------
 
-* `GET /dashboards/1.json` will return the specified dashboard.
+* `GET /dashboards/1` will return the specified dashboard.
 
 ```json
 {
