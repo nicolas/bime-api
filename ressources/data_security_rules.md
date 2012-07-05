@@ -13,7 +13,7 @@ Get data security rules
   {
     "id":434343,
     "datafield":"product_name",
-    "autorized_values":"'atari','xbox','ps3'",
+    "autorized_values":["atari","xbox","ps3"],
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
     "connection_id": "123334"
@@ -21,7 +21,7 @@ Get data security rules
   {
     "id":434343,
     "datafield":"product_name",
-    "autorized_values":"'atari','xbox','ps3'",
+    "autorized_values":["atari","xbox","ps3"],
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
     "connection_id": "123334"
@@ -39,7 +39,7 @@ Get data security rule
 {
     "id":434343,
     "datafield":"product_name",
-    "autorized_values":"'atari','xbox','ps3'",
+    "autorized_values":["atari","xbox","ps3"],
     "updated_at": "2012-03-23T13:55:43-05:00",
     "created_at": "2012-03-23T13:55:43-05:00",
     "connection":{"id": "123334","name":"Oracle prod 1"},
@@ -59,7 +59,7 @@ Create data security rule
 {
   "connection_id":123334,
   "datafield": "product_name",
-  "autorized_values": "'atari','xbox','ps3'"
+  "autorized_values": ["atari","xbox","ps3"]
 }
 ```
 
@@ -75,7 +75,7 @@ Update data security rule
 {
   "connection_id":123334,
   "datafield": "product_name",
-  "autorized_values": "'atari','xbox','ps3'"
+  "autorized_values": ["atari","xbox","ps3"]
 }
 ```
 
