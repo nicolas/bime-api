@@ -4,7 +4,7 @@ named user groups
 Get named user groups
 ---------------------
 
-* `GET /named_user_groups.json` will return all named user groups.
+* `GET /named_user_groups` will return all named user groups.
 
 ```json
 [
@@ -27,7 +27,7 @@ Get named user groups
 Get named user group
 --------------------
 
-* `GET /named_user_group/1.json` will return the specified named user group.
+* `GET /named_user_groups/1` will return the specified named user group.
 
 ```json
 {
@@ -52,7 +52,7 @@ dashboards are the dashboard the group can access
 Create named user group
 -----------------------
 
-* `POST /named_user_group.json` will create a new named user group from the parameters passed.
+* `POST /named_user_groups` will create a new named user group from the parameters passed.
 
 ```json
 {
@@ -66,7 +66,7 @@ This will return `201 Created`, with the current JSON representation of the name
 Update named user group
 -----------------------
 
-* `PUT /named_user_group/1.json` will update the named user group from the parameters passed.
+* `PUT /named_user_groups/1` will update the named user group from the parameters passed.
 
 ```json
 {
@@ -81,4 +81,4 @@ This will return `200 OK` if the update was a success along with the current JSO
 Delete named user group
 -----------------------
 
-* `DELETE /named_user_group/1.json` will delete the named user group specified and return `204 No Content` if that was successful.
+* `DELETE /named_user_groups/1` will delete the named user group specified and return `204 No Content` if that was successful.
