@@ -85,4 +85,4 @@ This will return `200 OK` if the update was a success along with the current JSO
 Delete data security rule
 -------------------------
 
-* `DELETE /data_security_rule/1.json` will delete the data security rule specified and return `204 No Content` if that was successful.
+* `DELETE /data_security_rule/1` will delete the data security rule specified and return `204 No Content` if that was successful.
