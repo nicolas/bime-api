@@ -48,7 +48,9 @@ Get named user
 }
 ```
 You can an external parameter (?external=true) to tell us to perform the lookup on the external_id.
+
 If the named user is not found you'll get an exception with "record not found".
+
 access_token is sent to dashboards to identify the users and eventually apply data security.
 
 Create named user
