@@ -14,7 +14,7 @@ common workflow
 1. Create at least one dashboard from the BimeUI (create connections => queries => dashboard)
 
 ### set up
-2. For all the users in your app create a named viewers through the [named_viewers API] (https://https://github.com/nicolas/bime-api/blob/master/ressources/named_users.md)
+2. For all the users in your app create a named users through the [named_users API] (https://github.com/nicolas/bime-api/blob/master/ressources/named_users.md)
 3. Organize those users into named user groups through the [named_user_group API] (https://github.com/nicolas/bime-api/blob/master/ressources/named_user_groups.md)
 4. Give dashboard access to your named user through the [dashboard_suscription API] (https://github.com/nicolas/bime-api/blob/master/ressources/dashboard_subscriptions.md)
 5. (Optional) create data security rule through the [data_security_rule API] (https://github.com/nicolas/bime-api/blob/master/ressources/data_security_rules.md)
