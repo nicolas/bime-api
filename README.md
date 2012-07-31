@@ -1,7 +1,7 @@
 Making a request
 ----------------
 
-All URLs start with `https://api.bimeapp.com/v2`. **SSL only**. The path is suffixed with the account id and the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
+All URLs start with `https://api.bimeapp.com/v2` excepts for authentication that is scoped by your subdomain `https://youdomain.bimeapp.com/oauth/*`**SSL only**. The path is suffixed with the account id and the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
 To make a request for all the users on your account, you'd append the users index path to the base url to form something like https://api.bimeapp.com/v1/users.json. In curl, that looks like:
 
