@@ -47,6 +47,7 @@ Get named user
    "named_user_group_id":5
 }
 ```
+You can an external parameter (?external=true) to tell us to perform the lookup on the external_id.
 access_token is sent to dashboards to identify the users and eventually apply data security.
 
 Create named user
