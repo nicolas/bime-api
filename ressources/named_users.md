@@ -28,7 +28,7 @@ Get named users
   }
 ]
 ```
-External_id is an id assigned by the third party application (ie: the primary key of the user synchronized with bime's named viewer. It has to be unique.  
+external_id is an id assigned by the third party application (ie: the primary key of the user synchronized with bime's named viewer. It has to be unique.  
 
 
 Get named user
