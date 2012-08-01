@@ -14,7 +14,7 @@ ever having to see his password or ask him to copy/paste an API key.
 1. [Grab an OAuth 2 library](http://oauth.net/code/).
 2. Register your app at [youraccountname.bimeapp.com/oauth_clients](https://youraccountname.bimeapp.com/oauth_clients). You'll be assigned a `client_id` and `client_secret`. You'll need to provide a `redirect_uri`: a URL where we can send a verification code. Just enter a dummy URL like `http://myapp.com/oauth` if you're not ready for this yet.
 3. Configure your OAuth 2 library with your `client_id`, `client_secret`, and `redirect_uri`. Tell it to use `https://bimeapp.com/authorization/new` to request authorization and `https://bimeapp.com/authorization/token` to get access tokens.
-4. Try making an authorized request to `https://bimeapp.com/authorization.json` to dig in and test it out!
+4. Try making an authorized request to `https://api.bimeapp.com/dashboards` to dig in and test it out!
 
 
 OAuth 2 from scratch
@@ -28,7 +28,7 @@ The typical flow for a web app:
 
 1. Your app requests authorization by redirecting your user to Launchpad:
 
-        https://bimeapp.com/authorization/new?type=web_server&client_id=your-client-id&redirect_uri=your-redirect-uri
+        https://youraccountname.bimeapp.com/authorization/new?type=web_server&client_id=your-client-id&redirect_uri=your-redirect-uri
 
 2. We authenticate their Bime ID and ask whether it's ok to give access to your app. [Here's an example of what this screen looks like](https://bimeapp.com/authorization/new?type=web_server&client_id=0bf18204f5a28003bf7b9abb7e1db5e649d86ef4&redirect_uri=moist%3A%2F%2Foauth)
 
@@ -36,7 +36,7 @@ The typical flow for a web app:
 
 4. Your app makes a backchannel request to trade the verification code for an access token. We authenticate your app and issue an access token:
 
-        POST https://bimeapp.com/authorization/token?type=web_server&client_id=your-client-id&redirect_uri=your-redirect-uri&client_secret=your-client-secret&code=verification-code
+        POST https://youraccountname.bimeapp.com/authorization/token?type=web_server&client_id=your-client-id&redirect_uri=your-redirect-uri&client_secret=your-client-secret&code=verification-code
 
 5. Your app uses the token to authorize API requests to any of the Bime ID's accounts. Set the Authorization request header:
 
