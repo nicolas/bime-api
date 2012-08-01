@@ -13,7 +13,11 @@ ever having to see his password or ask him to copy/paste an API key.
 
 1. [Grab an OAuth 2 library](http://oauth.net/code/).
 2. Register your app at [youraccountname.bimeapp.com/oauth_clients](https://youraccountname.bimeapp.com/oauth_clients). You'll be assigned a `client_id` and `client_secret`. You'll need to provide a `redirect_uri`: a URL where we can send a verification code. Just enter a dummy URL like `http://myapp.com/oauth` if you're not ready for this yet.
-3. Configure your OAuth 2 library with your `client_id`, `client_secret`, and `redirect_uri`. Tell it to use `https://bimeapp.com/authorization/new` to request authorization and `https://bimeapp.com/authorization/token` to get access tokens.
+3. Configure your OAuth 2 library with your `client_id`, `client_secret`, and `redirect_uri`. Tell it to use:
+              :request_token_path => `/oauth/request_token`
+              :access_token_path  => `/oauth/access_token`
+      	      :authorize_path     => `/oauth/authorize`
+   and `https://youraccountname.bimeapp.com/` as the base url
 4. Try making an authorized request to `https://api.bimeapp.com/dashboards` to dig in and test it out!
 
 
