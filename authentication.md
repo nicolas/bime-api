@@ -40,8 +40,6 @@ The typical flow for a web app:
 
         Authorization: Bearer <tokenhere>
 
-6. To get info about the Bime ID you authorized and the accounts you have access to, make an authorized request to `https://bimeapp.com/authorization.json` (or `/authorization.xml`).
-
 Implementation notes:
 
 * Start by reading the [draft spec](http://tools.ietf.org/html/draft-ietf-oauth-v2)
