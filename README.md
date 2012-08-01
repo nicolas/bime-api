@@ -6,7 +6,7 @@ All URLs start with `https://api.bimeapp.com/v2` excepts for authentication that
 To make a request for all the users on your account, you'd append the users index path to the base url to form something like https://api.bimeapp.com/v1/users.json. In curl, that looks like:
 
 ```shell
-curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://api.bimeapp.com/v1/users
+curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://api.bimeapp.com/v2/users
 ```
 
 To create something, it's the same deal except you also have to include the `Content-Type` header and the JSON data:
