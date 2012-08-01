@@ -61,7 +61,8 @@ Create named user
 ```json
 {
   "full_name": "Mathias Paulin",
-  "external_id": "007"
+  "external_id": "007",
+  "named_user_group_id":4
 }
 ```
 
@@ -77,6 +78,7 @@ Update named user
 {
   "full_name": "Dr Mathias Paulin",
   "external_id": "007",
+  "named_user_group_id":5
   "renew_access_token":true
 }
 ```
