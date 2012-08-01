@@ -62,7 +62,7 @@ API
 
 How to
 ----------------
-* [integrate a Bime dashboard in a third party solution](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
+* [Integrate a Bime dashboard in a third party solution](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
 
 
 
