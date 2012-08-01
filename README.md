@@ -26,7 +26,7 @@ Read the [authentication guide](https://github.com/nicolas/bime-api/blob/master/
 Output format
 -------------
 
-We support JSON for serialization of data. Our format is to have no root element and we use snake\_case to describe attribute keys. This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data into Bime.
+We support JSON for serialization of data. This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data into Bime.
 
 
 Use HTTP caching
