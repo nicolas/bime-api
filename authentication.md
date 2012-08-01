@@ -17,7 +17,8 @@ ever having to see his password or ask him to copy/paste an API key.
 
               :request_token_path => "/oauth/request_token"
               :access_token_path  => "/oauth/access_token"
-      	              :authorize_path     => "/oauth/authorize"
+      	:authorize_path     => "/oauth/authorize"
+                    
    and `https://youraccountname.bimeapp.com/` as the base url
    
 4. Try making an authorized request to `https://api.bimeapp.com/dashboards` to dig in and test it out!
