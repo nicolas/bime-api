@@ -44,7 +44,7 @@ Get named user
    "updated_at": "2012-03-23T13:55:43-05:00",
    "created_at": "2012-03-23T13:55:43-05:00",
    "access_token": "AZALPODP112332MLSDSDSLM",
-   "named_user_group_id":5
+   "named_user_group_id": 5
 }
 ```
 You can an external parameter (?external=true) to tell us to perform the lookup on the external_id.
@@ -62,7 +62,7 @@ Create named user
 {
   "full_name": "Mathias Paulin",
   "external_id": "007",
-  "named_user_group_id":4
+  "named_user_group_id": 4
 }
 ```
 
@@ -78,7 +78,7 @@ Update named user
 {
   "full_name": "Dr Mathias Paulin",
   "external_id": "007",
-  "named_user_group_id":5
+  "named_user_group_id": 5
   "renew_access_token":true
 }
 ```
