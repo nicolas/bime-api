@@ -78,7 +78,7 @@ Update named user
 {
   "full_name": "Dr Mathias Paulin",
   "external_id": "007",
-  "named_user_group_id": 5
+  "named_user_group_id": 5,
   "renew_access_token":true
 }
 ```
