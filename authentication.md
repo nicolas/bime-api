@@ -27,10 +27,8 @@ If you're going bare-metal and developing your own OAuth 2 client, you have a bi
 The typical flow for a web app:
 
 1. Your app requests authorization by redirecting your user to Launchpad:
-
-        https://youraccountname.bimeapp.com/authorization/new?type=web_server&client_id=your-client-id&redirect_uri=your-redirect-uri
-
-2. We authenticate their Bime ID and ask whether it's ok to give access to your app. [Here's an example of what this screen looks like](https://bimeapp.com/authorization/new?type=web_server&client_id=0bf18204f5a28003bf7b9abb7e1db5e649d86ef4&redirect_uri=moist%3A%2F%2Foauth)
+        
+        https://youraccountname.bimeapp.com/oauth/authorize?authorize?response_type=code&client_id=vVzhk5FyzizLLe051J5HjUHpKVBrgAou0KvRsx4z&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fdashboards%2Flist)
 
 3. We redirect the user back to your app with a time-limited verification code.
 
