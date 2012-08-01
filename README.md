@@ -3,20 +3,12 @@ Making a request
 
 All URLs start with `https://api.bimeapp.com/v2` excepts for authentication that is scoped by your subdomain `https://youdomain.bimeapp.com/oauth/*`**SSL only**. The path is suffixed with the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
-To make a request for all the users on your account, you'd append the users index path to the base url to form something like https://api.bimeapp.com/v1/users.json. In curl, that looks like:
+You also have to include the `Content-Type` header and the JSON data:
 
 ```shell
-curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://api.bimeapp.com/v2/users
-```
-
-To create something, it's the same deal except you also have to include the `Content-Type` header and the JSON data:
-
-```shell
-curl -u username:password \
+curl
   -H 'Content-Type: application/json' \
-  -H 'User-Agent: MyApp (yourname@example.com)' \
-  -d '{ "name": "My new project!" }' \
-  https://bimeapp.com/api/v1/999999/users
+  https://api.bimeapp.com/v2/dashboards
 ```
 
 That's all!
@@ -31,23 +23,10 @@ You must use OAuth 2. This allows users to authorize your application to use Bim
 Read the [authentication guide](https://github.com/nicolas/bime-api/blob/master/authentication.md) to get started.
 
 
-Identify your app
------------------
-
-You must include a `User-Agent` header with the name of your application and a link to it or your email address so we can get in touch in case you're doing something wrong (so we may warn you before you're blacklisted) or something awesome (so we may congratulate you). Here's an example:
-
-    User-Agent: mysaaserp (http://mysaaserp.com)
-
-If you don't supply this header, you will get a `400 Bad Request`.
-
-
 Output format
 -------------
 
 We support JSON for serialization of data. Our format is to have no root element and we use snake\_case to describe attribute keys. This means that you have to send `Content-Type: application/json; charset=utf-8` when you're POSTing or PUTing data into Bime.
-
-You'll receive a `415 Unsupported Media Type` response code if you attempt to use a different URL suffix or leave out the `Content-Type` header.
-
 
 
 Use HTTP caching
