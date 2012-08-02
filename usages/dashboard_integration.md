@@ -13,9 +13,9 @@ simple workflow
 1. Create at least one dashboard from the BimeUI (create connections => queries => dashboard)
 
 2. try to get a Bime's named user for your system id of the current user.
-3. if it exists goes to 6.
-4. if it doesn't exist create a named user in Bime.
-5. affect the user to an existing named user group. 
+3. if it exists go to 6.
+4. Retrieve the list of groups
+5. Create a named user in Bime and attach it to a group.
 6. list the dashboards bime's named user group has access to.
 7. load the dashboard passing in parameter the bime's named user access token.
 
