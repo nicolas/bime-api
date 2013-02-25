@@ -1,6 +1,6 @@
 Code examples are in ruby.
 
-# 1) First setup a client oauth library
+## 1) First setup a client oauth library
 
 # < your consumer key > and < your consumer secret > can be find at https://youraccount.bimeapp.com/oauth_clients
 
