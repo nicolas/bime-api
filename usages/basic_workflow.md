@@ -25,7 +25,7 @@ Code examples are in ruby.
 
 On a classic workflow, after authorizing the application, you will be redirected to your application with an authorization code (in `params[:code]`)
 
-## Code behind http://yourapplication/redirect_url
+## 3) Code behind http://yourapplication/redirect_url
 
     if(params[:code])
       # Exchange the authorization code with an access token (used in future calls to access resources)
@@ -34,7 +34,7 @@ On a classic workflow, after authorizing the application, you will be redirected
       @client.site = "https://api.bimeapp.com"
     end
 
-## Make an API call
+## 4) Make an API call
 
     resp = @access_token.get "v2/dashboards/" + dahsboard_id
     dashboard = JSON.parse(resp.body)["result"]
