@@ -16,7 +16,7 @@ ever having to see his password or ask him to copy/paste an API key.
 3. Configure your OAuth 2 library with your `client_id`, `client_secret`, and `redirect_uri`. Tell it to use:
 
               :request_token_path => "/oauth/request_token"
-              :access_token_path  => "/oauth/access_token"
+              :access_token_path  => "/oauth/token"
       	      :authorize_path     => "/oauth/authorize"
                     
    and `https://youraccountname.bimeapp.com/` as the base url
@@ -41,7 +41,7 @@ The typical flow for a web app:
 
 4. Your app makes a backchannel request to trade the verification code for an access token. We authenticate your app and issue an access token:
 
-        POST https://youraccountname.bimeapp.com/oauth/access_token?client_id=your-client-id&redirect_uri=your-redirect-uri&client_secret=your-client-secret&code=verification-code
+        POST https://youraccountname.bimeapp.com/oauth/token?client_id=your-client-id&redirect_uri=your-redirect-uri&client_secret=your-client-secret&code=verification-code
 
 5. Your app uses the token to authorize API requests to any of the Bime ID's accounts. Set the Authorization request header:
 
