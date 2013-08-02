@@ -26,4 +26,6 @@ Named user group can have associated security rules that can be applied.
 2. Create groups for your users
 3. Create security rules for your group for your dashboard
 4. Associate existing or new users to your group (See simple workflow)
-5. Laoad the dashboard passing in parameter an access token for each user
+5. Load the dashboard passing in parameter an access token for each user
+
+Warning: please be sure to add the domain from where the dashboard will be loaded in the publish form of the dashboard in the BIME studio interface. 
