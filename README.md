@@ -64,7 +64,11 @@ How to
 ----------------
 * [Integrate a Bime dashboard in a third party solution](https://github.com/nicolas/bime-api/blob/master/usages/dashboard_integration.md) 
 
-
+Code Sample
+----------------
+* [Rails integration](https://github.com/nicolas/bime-api-demo) 
+* [Java integration](https://github.com/nicolas/bime-api-demo-java) 
+* [C#](https://gist.github.com/matthieu-ravey/6122610) 
 
 Help us make it better
 ----------------------
