@@ -6,7 +6,7 @@ API requests can be authenticated by passing along an OAuth 2 token.
 Simple workflow
 ----------------
 Go to https://youraccount.bimeapp.com/oauth_clients and register your app. 
-You can consider the access token given after that process as API Key that you can add to your query string
+You can consider the access token given after that process as an API Key that you can add to your query string
 [like this](https://gist.github.com/matthieu-ravey/6122610)
 
 If you need to access several BIME accounts then you'll need to do a full OAUTH workflow described below.
